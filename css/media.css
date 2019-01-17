@@ -1,0 +1,598 @@
+/*media for query div */
+
+@media only screen and (max-width: 600px) {
+    .short-description {
+        display: none;
+    }
+    .queue-div-profile {
+        display: none;
+    }
+    .queue-div .image-video {
+        width: 100%;
+        height: 100px;
+
+
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .queue-div .image-video {
+        width: 100%;
+        height: 80px;
+
+
+    }
+    .queue-div-title a {
+        font-size: 15px;
+    }
+
+
+}
+
+@media only screen and (min-width: 760px) {
+    .main-news-text h3 {
+
+        font-size: 18px;
+    }
+
+
+}
+
+@media only screen and (max-width: 760px) {
+    .main-news-text h3 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .main-news-text h3 {
+        font-size: 25px;
+    }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .mobile-device-trend {
+        display: block;
+
+    }
+    .advertise-right {
+        display: none;
+    }
+    .main-right-div {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 487px) {
+    .trending-design {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 487px) {
+    .trending-design {
+        display: block;
+    }
+    .mobile-view-trending-design {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 761px) {
+    .small-screen-gift-divs {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 761px) {
+    .gift-divs-element {
+        display: none;
+    }
+    .small-screen-gift-divs {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .gift-tab li a {
+
+        height: 80px;
+        width: 115px;
+    }
+    .offmode {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1287px) {
+    .asis-main-image-text{
+        display: none;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 415px) {
+    .gift-tab li a {
+        height: 80px;
+        width: 110px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .asis-nav {
+        float: none;
+        text-align: left;
+
+    }
+
+    .asis-nav li {
+        float: none;
+        display: inline;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .asis-image {
+
+        margin: 0px;
+        background: red;
+        width: 80%;
+        height: 300px;
+        margin: auto;
+        overflow: hidden;
+
+    }
+    .asis-main-image-text {
+        position: absolute;
+        background: white;
+        height: auto;
+        width: 80%;
+        z-index: 1;
+        top: 70%;
+        right: 10%;
+        padding: 15px;
+        border-top: 5px solid blue;
+        background: white;
+
+    }
+    .asis-main-image-text h1 a {
+        font-size: 20px;
+
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .asis-main-image-text {
+        top: 45%;
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .asis-main-image-text h1 {
+        font-size: 25px;
+
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .asis-queue-div {
+        margin: 150px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+    .asis-queue-div {
+        margin: 160px 0px;
+    }
+    .asis-div-content h3 a {
+        text-decoration: none;
+        color: #222222;
+        font-size: 20px;
+    }
+
+    .asis-div-content {
+        margin-bottom: 30px;
+    }
+
+    .asis-div-content p {
+        margin: 14px 0px;
+        font-weight: 900;
+        color: #393e89;
+        font-size: 12px
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .connect-asis-content input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .btn-asis-register {
+        width: 100%;
+        margin-left: -2px
+    }
+
+}
+
+
+
+
+/*Code goes for multiple nav asis page */
+
+@media only screen and (max-width: 867px) {
+
+    .floating-nav img {
+        margin: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+    .asis-navbar {
+        display: none
+    }
+    .logo {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 867px) {
+
+    .floating-navbar ul {
+        margin-left: 2px;
+        ;
+    }
+
+    .floating-navbar .floating-nav-option li a {
+        padding: 15px 8px;
+    }
+
+}
+
+
+/*Condition for floating navabr */
+
+@media only screen and (max-width: 770px) {
+    .navbar-fixed-bottom,
+    .navbar-fixed-top {
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0%;
+        z-index: 1030;
+        -webkit-transition: .7s;
+        transition: .7s;
+    }
+
+}
+
+/*news subpage mushead div responsiveness */
+
+@media only screen and (max-width: 761px) {
+    .buzzfeed-news-same-div .musthead i {
+        font-size: 15px;
+        margin: 0px 4px
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .news-view-navbar .container {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 994px) {
+    .news-view-navbar {
+        display: none;
+    }
+    .news-views-fixed-social {
+        display: block;
+    }
+
+
+}
+
+@media only screen and (max-width: 617px) {
+    .browes-btn-cross {
+        display: block;
+    }
+    .video-brows-button .more-sub-menu {
+        width: 600px;
+        margin-right: -10px;
+        margin-top: -10px;
+        padding: 50px
+    }
+    .video-brows-button .more-sub-menu .options {
+        height: auto;
+
+    }
+    .col-xs-6 {
+        width: 100%;
+    }
+    .video-brows-button .more-sub-menu .video-content {}
+
+
+}
+
+@media only screen and (max-width: 550px) {
+    .video-brows-button .more-sub-menu {
+
+        padding: 0px 100px;
+        padding-right: 5px
+    }
+
+
+}
+
+@media only screen and (max-width: 497px) {
+    .video-brows-button .more-sub-menu {
+        padding-left: 180px;
+        padding-right: 5px
+    }
+
+
+}
+
+@media only screen and (max-width: 419px) {
+    .video-brows-button .more-sub-menu {
+        padding-left: 220px;
+        padding-right: 5px
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    .video-charvon {
+
+        opacity: 0;
+
+
+    }
+    .video-charvon-left {
+        opacity: 0;
+    }
+    .page
+}
+
+@media only screen and (max-width: 480px) {
+    .showcase h2 {
+        margin-top: -6px;
+        font-size: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 761px) {
+    .channel-motto-text p {
+        display: none;
+
+
+    }
+    .channel-motto-text h4 {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 25px
+    }
+    .show-more a {
+        margin-top: 20px
+    }
+}
+
+@media only screen and (min-width: 1208px) {
+    .channel-motto-text {
+        margin-left: -80px
+    }
+}
+
+@media only screen and (max-width: 761px) {
+    .video-trend {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 761px) {
+    .trending-for-mini-screen {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1201px) {
+    .lol-trandes {
+        display: none;
+    }
+    .navbar-form {
+        margin-left: 0px
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .navbar-brand img {
+        margin-left: 30px;
+    }
+}
+
+
+
+/*-------------------------------------------------------------------media responsive for review page navbar  --------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1101px) {
+    .reviews-page .navbar-header {
+        float: none;
+    }
+    .reviews-page .navbar-left,
+    .reviews-page .navbar-right {
+        float: none !important;
+    }
+    .reviews-page .navbar-toggle {
+        display: block;
+    }
+    .reviews-page .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .reviews-page .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .reviews-page .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .reviews-page .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+    .reviews-page .navbar-nav > li {
+        float: none;
+    }
+    .reviews-page .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .reviews-page .collapse.in {
+        display: block !important;
+    }
+    .reviews-page .miniscreen-social {
+        display: block;
+    }
+    .reviews-page .navbar-nav .reviews a i {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .reviews-page .navbar-brand img {
+        height: 35px;
+    }
+}
+
+/* Code For Row image responsive  for all project */
+
+@media screen and (max-width:768px) {
+    .divContainer {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .divContainer {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:993px) {
+    .address h4 {
+        text-align: center
+    }
+    .address {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:761px) {
+    .image-content {
+        position: relative;
+        width: 100%;
+        height: 350pxpx;
+        overflow: hidden;
+    }
+    .image-content img {
+        width: 100%;
+        height: 350px;
+
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .path h3 {
+        font-weight: bolder;
+        font-size: 16px;
+    }
+}
+
+/*code for more button big screen hoverable and mini screen pop menu */
+
+@media screen and (max-width: 764px) {
+    .more-sub-menu {
+        display: none;
+    }
+    .subbody-open {
+        position: absolute;
+        width: 100%;
+        height: 150%;
+        background: white;
+        z-index: 100;
+        display: block;
+        overflow: inherit;
+    }
+}
+
+
+
+@media screen and (max-width: 954px) {
+    .more-sub-menu {
+        display: none;
+    }
+    .subbody-open {
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        background: white;
+        z-index: 100;
+        display: block;
+        overflow: inherit;
+        padding: 10px;
+    }
+    .navbar-nav .mini-screen-more a {
+        display: block;
+    }
+    .navbar-nav .dropdown {
+
+    }
+
+}
+
+.register-name {
+    padding: 15px 55px;
+    margin-left: -60px;
+    border-bottom: 1px solid #ddd;
+}
+
+.register-name i {
+    font-size: 40px;
+    margin: 8px;
+    text-align: right;
+    margin-left: 30px;
+}

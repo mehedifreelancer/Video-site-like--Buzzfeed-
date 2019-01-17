@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top{
+    background:white;
+    height: 36px;
+
+}
+.draft-post{
+    color: white;
+    background:#f49c1a ;
+    font-weight: bold;
+}
+.buttons{
+    background:#f4f4f4 ;
+    padding: 5px;
+    height: 100%;
+    margin-bottom: 10px;
+
+
+}
+.user-pr-btn{
+    background:#f4f4f4 ;
+    color: #0077ee;
+    border: 1px solid #0077ee;
+    padding: 10px 35px;
+    transition: .5s;
+    font-weight: bold;
+
+}.user-pr-btn:hover{
+    background:#0077ee ;
+     color: white;
+
+
+}
+.user-sc-btn{
+    background:#0077ee ;
+    color: white;
+    border: 1px solid #0077ee;
+    padding: 10px 35px;
+    transition: .5s;
+    font-weight: bold;
+
+}
+.user-sc-btn:hover{
+    background:#005ab3 ;
+    color: white;
+
+
+
+}
+.pattern, .form-body, .side-option{
+
+
+
+}
+.form{
+    margin-top: -10px;
+}
+.form-body ,.addOption{
+    max-width: 59%;
+}
+textarea {
+    resize: none;
+    column-count: inherit;
+}
+
+.addOption  p{
+    text-transform: uppercase;
+}
+.add-btn-group{
+    margin-top: -5px;
+
+}
+.btn-op{
+
+    background:white ;
+    padding: 0px 42px;
+    border: 1px solid #dddddd;
+    color: #0077ee;
+    border-radius: 0px;
+    transition: .2s;
+    max-width: 20%;
+    float: left;
+
+
+
+}
+.btn-op:hover{
+    background: #ddd;
+}
+.btn-op i{
+    font-size: 18px;
+    padding: 5px;
+
+}
+.settings{
+    position: fixed;
+    right: 0px;
+    top: 120px;
+
+
+}
+.settings-heading{
+    width: 390px;
+    background: #f8f8f8;
+    border-bottom: 2px solid #dddddd;
+
+
+
+
+}
+.settings-heading i{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 15px;
+}
+.settings-heading p{
+    font-size: 18px;
+    color: black;
+    float: right;
+    padding: 2px 8px;
+    margin-left: 0px;
+
+}
+.settings-body {
+    background: #f4f4f4;
+    width: 370px;
+    height: 440px;
+
+
+}
+.settings-body-element{
+    margin: 15px;
+}
+
+.list-option{
+     float: left;
+    margin: 5px 10px;
+    padding: 5px;
+    transition: .3s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+ }
+.list-option:hover{
+
+     border: 1px solid darkgray;
+
+ }
+.list-option i{
+    font-size: 20px;
+    color: #000000;
+}
+.list-option p{
+    color: #0077ee;
+    font-size: 12px;
+}
+.list-style{
+    height: 90px;
+    border-bottom: 2px solid #dddddd;
+}
+.community-post{
+
+    border-bottom: 2px solid #dddddd;
+}
+.com-heading{
+
+}
+.take-photo{
+    position: relative;
+    height:150px;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+.take-photo i{
+    position: absolute;
+    text-align: center;;
+    font-size: 100px;
+    margin:18px 110px;
+
+}
+.take-photo p{
+    position: absolute;
+    text-align: center;
+    margin:115px 115px;
+}
+.com-file{
+   position: absolute;
+    height:150px;
+    width: 100%;
+    opacity: 0;
+
+
+}
+.s{
+    margin-top: 5px;
+}
+.fa-cog, .fa-times{
+    padding: 5px 25px;
+}
+.fa-cog{
+    display: none;
+}
+.text{
+    position: relative;
+}
+.cross{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.num{
+    position: absolute;
+    height:30px;
+    width: 30px;
+    background: #dddddd;
+    text-align: center;
+    right: 100%;
+    top:0;
+    padding: 2px;
+    font-weight: bold;
+}
+.cross i{
+    
+    color:#dddddd;
+    font-size: 25px;
+
+}
+
+.image{
+    position: relative;
+}
+.image-up{
+    height: 180px;
+    position: relative;
+    border: 1px solid #dddddd;
+
+}
+.image-up input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.image-up i{
+    font-size: 80px;
+    margin-top: 20px;
+    color: #dddddd;
+}
+.image-up p{
+    color: #ddd;
+    font-size: 18px;
+}
+.embed{
+    position: relative;
+}
+.link{
+    position: relative;
+}
+
+.text :hover .cross i{
+    color: red;
+}
+.image :hover .cross i{
+    color: red;
+}
+.embed :hover .cross i{
+    color: red;
+}
+.link :hover .cross i{
+    color: red;
+}
+.quiz{
+    position: relative;
+    display: none;
+
+
+
+
+}
+.quizMenu{
+    position: absolute;
+    right:0;
+    margin-top: 66px;
+    border:1px solid #dddddd;
+    width: 20%;
+
+
+
+
+
+}
+
+.quizMenu li{
+    padding: 5px;
+    list-style: none;
+    width: 100%;
+
+
+
+}
+.quizMenu  a{
+    text-decoration: none;
+    border: none;
+}
+.quizMenu li:hover{
+    background: #dddddd;
+
+}
+
+.q-btn{
+    margin-top: 5px;
+
+
+}
+.quiz-div:hover .quiz{
+    display:block ;
+}

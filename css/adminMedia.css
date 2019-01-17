@@ -1,0 +1,73 @@
+/*media for query div */
+
+@media only screen and (max-width: 490px) {
+        .preview{
+            display: none;
+        }
+
+}
+@media only screen and (max-width: 1160px) {
+    .link{
+        display: none;
+    }
+    .btn-op{
+        max-width:25% ;
+    }
+    .quizeMenu{
+
+        width: 25%;
+
+
+    }
+
+}
+@media only screen and (max-width: 930px) {
+
+
+    .settings{
+        width: 42px;
+    }
+    .fa-cog{
+        display: block;
+    }
+.fa-times{
+        display: none;
+    }
+
+    .settings-body {
+        width: 0px;
+
+    }
+    .settings{
+        position: fixed;
+        right: 0px;
+        top: 0px;
+
+
+    }
+    .mini {
+        background: red;
+        height: 300px;
+
+    }
+  .pattern{
+     max-width: 0%;
+  }
+    .form-body ,.addOption{
+        max-width: 100%;
+    }
+
+}
+@media only screen and (max-width: 630px) {
+
+  .btn-op{
+        max-width: 50%;
+    }
+    .quizeMenu{
+
+        width: 50%;
+        margin-top: 130px;
+
+    }
+
+}
